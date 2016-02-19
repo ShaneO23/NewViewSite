@@ -15,8 +15,9 @@
     GENERAL STYLES
 ==================================================*/
 body {
-          font-family:'Open Sans', sans-serif;
+    font-family:'Open Sans', sans-serif;
     font-size:14px;
+    background: #555;
 }
 
 .nav a {
@@ -231,7 +232,7 @@ border: none;
 
 .plan li.main-price {
    padding: 25px 0px;
-background-color: #AA570A;
+background-color: #0AAA94;
 color: #fff;
 border: none;
 font-weight: 900;
@@ -288,6 +289,34 @@ font-size: 30px;
     font-size:20px;
     line-height:40px;
 }
+
+/*=======================================
+    CAROUSEL STYLES
+==================================================*/
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
 /*=======================================
     FOOTER STYLES
 ==================================================*/
